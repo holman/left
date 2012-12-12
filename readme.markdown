@@ -1,23 +1,52 @@
-# holman.github.com
+# Left
 
-Hi. This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted
-on [GitHub Pages](http://pages.github.com/) for
-[zachholman.com](http://zachholman.com). Feel free to browse the source, fork,
-[ask me questions](http://twitter.com/holman), and post your own compelling
-blog posts.
+Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
 
-## Your usage
+This is designed to be an easy layout to modify for your own blog. It was
+extracted from [zachholman.com][zh], which means it was battle-hardened from
+years of posting serious blog posts about emoji and swear words.
 
-Here's the deal. This is my blog, and there's certainly a distinctive look and
-feel associated with it. I'd appreciate it if you changed your own fork. If
-you'll notice, there's no license attached to this project, so technically I
-maintain the rights associated with this project.
+## Installation
 
-There's also another big reason: I use icons from
-[Symbolset](http://symbolset.com) in my blog, because they are awesome. But
-they're also **paid-for** icons. In other words, if you put them on your own
-fork without paying for them you're illegal (and a bit of a dick, since those
-guys are doing some real good work over there).
+- Install Jekyll: `gem install jekyll`
+- Fork this repository
+- Clone it: `git clone https://github.com/YOUR-USER/left`
+- Run the jekyll server: `jekyll --server`
 
-So be cool, change things up, find your own voice. It'll work better for you
-in the long run, too.
+You should have a server up and running locally at <http://localhost:4000>.
+
+## Customization
+
+Next you'll want to change a few things. You can find almost all of these by
+grepping through your repository and looking for `TODO`. You'll want to change
+my name to yours, my gravatar to yours, and so on.
+
+There's a few other places that don't have a TODO associated with them, too:
+
+- [CNAME](https://github.com/holman/left/blob/master/CNAME): If you're using
+  this on GitHub Pages with a custom domain name, you'll want to change this
+  to be the domain you're going to use.
+- [favicon.ico](https://github.com/holman/left/blob/master/favicon.ico): This
+  is a smaller version of my gravatar for use as the icon in your browser's
+  address bar. You should change it to whatever you'd like.
+- [apple-touch-icon.png](https://github.com/holman/left/blob/master/apple-touch-icon.png):
+  Again, this is my gravatar, and it shows up in iOS and various other apps
+  that use this file as an "icon" for your site.
+
+## Deployment
+
+You should deploy with [GitHub Pages](http://pages.github.com)- it's just
+easier.
+
+All you should have to do is rename your repository on GitHub to be
+`username.github.com`. Since everything is on the `gh-pages` branch, you
+should be able to see your new site at <http://username.github.com>.
+
+## Licensing
+
+This is [MIT](https://github.com/holman/left/blob/master/LICENSE) with no
+added caveats, so feel free to use this on your site without linking back to
+me or using a disclaimer or anything silly like that.
+
+If you'd like give me credit somewhere on your blog or tweet a shout out to
+[@holman](https://twitter.com/holman), well hey, I'll take it.
