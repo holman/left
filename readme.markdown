@@ -6,6 +6,8 @@ This is designed to be an easy layout to modify for your own blog. It was
 extracted from [zachholman.com][zh], which means it was battle-hardened from
 years of posting serious blog posts about emoji and swear words.
 
+![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
+
 ## Installation
 
 - Install Jekyll: `gem install jekyll`
