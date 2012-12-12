@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Zach Holman</title>
+ <link href="http://zachholman.com/atom.xml" rel="self"/>
+ <link href="http://zachholman.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://zachholman.com</id>
+ <author>
+   <name>Zach Holman</name>
+ </author>
+ 
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://zachholman.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://zachholman.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>

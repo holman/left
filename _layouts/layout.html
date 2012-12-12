@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="author" content="Zach Holman" />
+  <meta name="description" content="A fantastic blog that is fantastic." />
+
+  <link rel="alternate" type="application/rss+xml" href="/posts.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <img src="http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c?s=150" height="75" width="75" class="avatar" />
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="zach">Zach</span>
+        <span id="holman">Holman</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/holman"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/holman"><img src="/images/twitter.png"></a>
+      <a href="/posts.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  {{ content }}
+</body>
+
+</html>
