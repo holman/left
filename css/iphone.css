@@ -7,7 +7,7 @@
     display: none; }
   .sidebar .name {
     display: inline; }
-    .sidebar .name #zach, .sidebar .name #holman {
+    .sidebar .name #fname, .sidebar .name #lname {
       font-size: 25px; }
   .sidebar .meta {
     display: none; }
