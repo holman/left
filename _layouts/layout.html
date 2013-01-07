@@ -33,8 +33,8 @@
 
     <section class="name">
       <a href="/">
-        <span id="fname">{{ site.first_name }}</span>
-        <span id="lname">{{ site.last_name }}</span>
+        <span id="fname">{{ site.name|split:' '|first }}</span>
+        <span id="lname">{{ site.name|split:' '|last }}</span>
       </a>
     </section>
 
