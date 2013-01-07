@@ -13,22 +13,22 @@ layout: layout
 
   {{ content }}
 
-  <!-- TODO: change links, gravatar, and bio here -->
+  <!-- TODO: bio here -->
   <section class="meta">
     <h3>Discussion, links, and tweets</h3>
     <section class="copy">
-      <a href="https://twitter.com/holman">
-        <img src="http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c?s=142" height="50" width="50" />
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+        <img src="{{ site.gravatar_url }}?s=142" height="50" width="50" />
       </a>
 
       <p>
-        I'm a developer at GitHub. <a href="https://twitter.com/holman">Follow me on Twitter</a>;
+        I'm a developer at GitHub. <a href="https://twitter.com/{{ site.twitter }}" target="_blank">Follow me on Twitter</a>;
         you'll enjoy my tweets. I take care to carefully craft each one. Or at least aim to make
         you giggle. Or offended. One of those two&mdash; I haven't decided which yet.
       </p>
 
-      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="holman">Tweet</a>
-      <a href="http://twitter.com/holman" class="twitter-follow-button" data-show-count="false">Follow @holman</a>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
+      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
       <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
     </section>
   </section>
