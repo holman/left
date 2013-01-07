@@ -1,25 +1,24 @@
 ---
 layout: nil
 ---
-<!-- TODO: update your domain name here if you're using one -->
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Zach Holman</title>
- <link href="http://zachholman.com/atom.xml" rel="self"/>
- <link href="http://zachholman.com/"/>
+ <title>{{ site.name }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://zachholman.com</id>
+ <id>{{ site.url }}</id>
  <author>
-   <name>Zach Holman</name>
+   <name>{{ site.name }}</name>
  </author>
  
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://zachholman.com{{ post.url }}"/>
+   <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://zachholman.com{{ post.id }}</id>
+   <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

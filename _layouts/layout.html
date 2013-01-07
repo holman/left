@@ -2,11 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title>
+    {% if page.title %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    {{ site.name }}
+  </title>
 
-  <!-- TODO: change name and description -->
-  <meta name="author" content="Zach Holman" />
-  <meta name="description" content="A fantastic blog that is fantastic." />
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="description" content="{{ site.description }}" />
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
 
@@ -24,22 +28,19 @@
 <body>
   <section class="sidebar">
     <a href="/">
-      <!-- TODO: change this gravatar URL -->
-      <img src="http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c?s=150" height="75" width="75" class="avatar" />
+      <img src="http://gravatar.com/avatar/{{ site.gravatar }}?s=150" height="75" width="75" class="avatar" />
     </a>
 
-    <!-- TODO: change name -->
     <section class="name">
       <a href="/">
-        <span id="zach">Zach</span>
-        <span id="holman">Holman</span>
+        <span id="zach">{{ site.first_name }}</span>
+        <span id="holman">{{ site.last_name }}</span>
       </a>
     </section>
 
-    <!-- TODO: change links -->
     <section class="meta">
-      <a href="https://github.com/holman"><img src="/images/github.png" /></a>
-      <a href="https://twitter.com/holman"><img src="/images/twitter.png"></a>
+      <a href="https://github.com/{{ site.github }}"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/{{ site.twitter }}"><img src="/images/twitter.png"></a>
       <a href="/atom.xml"><img src="/images/rss.png" /></a>
     </section>
 

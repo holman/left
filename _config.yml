@@ -4,3 +4,12 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
+
+name: Zach Holman
+url: http://zachholman.com
+description: A fantastic blog that is fantastic.
+first_name: Zach
+last_name: Holman
+twitter: holman
+github: holman
+gravatar: 6f63cde8b16b035280ca615f621a6c8c
