@@ -20,11 +20,11 @@ You should have a server up and running locally at <http://localhost:4000>.
 
 ## Customization
 
-Next you'll want to change a few things. You can find almost all of these by
-grepping through your repository and looking for `TODO`. You'll want to change
-my name to yours, my gravatar to yours, and so on.
+Next you'll want to change a few things. Most of them can be changed directly in
+[_config.yml](https://github.com/holman/left/blob/gh-pages/_config.yml). That's
+where we'll pull your name, Twitter username, and things like that.
 
-There's a few other places that don't have a TODO associated with them, too:
+There's a few other places that you'll want to change, too:
 
 - [CNAME](https://github.com/holman/left/blob/gh-pages/CNAME): If you're using
   this on GitHub Pages with a custom domain name, you'll want to change this
