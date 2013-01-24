@@ -12,42 +12,48 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="description" content="{{ site.description }}" />
 
-  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+  <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/atom.xml" />
 
-  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
-  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
-  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="{{ site.baseurl }}/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="{{ site.baseurl }}/css/iphone.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png" />
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/application.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/application.js"></script>
+
+  <style type="text/css">
+    .content hr {
+      background-image: url("{{ site.baseurl }}/images/hr.png");
+    }
+  </style>
 </head>
 
 <body>
   <section class="sidebar">
-    <a href="/">
+    <a href="{{ site.baseurl }}/">
       <img src="{{ site.gravatar_url }}?s=150" height="75" width="75" class="avatar" />
     </a>
 
     <section class="name">
-      <a href="/">
+      <a href="{{ site.baseurl }}/">
         <span id="fname">{{ site.name|split:' '|first }}</span>
         <span id="lname">{{ site.name|split:' '|last }}</span>
       </a>
     </section>
 
     <section class="meta">
-      <a href="https://github.com/{{ site.github }}" target="_blank"><img src="/images/github.png" /></a>
-      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="/images/twitter.png"></a>
-      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+      <a href="https://github.com/{{ site.github }}" target="_blank"><img src="{{ site.baseurl }}/images/github.png" /></a>
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ site.baseurl }}/images/twitter.png"></a>
+      <a href="{{ site.baseurl }}/atom.xml"><img src="{{ site.baseurl }}/images/rss.png" /></a>
     </section>
 
     <section class="sections">
       <ul>
-        <li><a href="/about.html">about</a></li>
-        <li><a href="/">posts</a></li>
+        <li><a href="{{ site.baseurl }}/about.html">about</a></li>
+        <li><a href="{{ site.baseurl }}/">posts</a></li>
       </ul>
     </section>
   </section>
