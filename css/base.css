@@ -59,9 +59,9 @@ a {
 
 .content {
   margin-left: 110px;
-  max-width: 41em;
-  margin-right: 2em;
-  margin-bottom: 50px; }
+  margin-right: 1em;
+  margin-bottom: 50px;
+  max-width: 45em; }
   .content h1 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
