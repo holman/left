@@ -58,8 +58,9 @@ a {
       margin-bottom: 7px; }
 
 .content {
+  max-width: 650px;
   margin-left: 110px;
-  width: 650px;
+  margin-right: 20px;
   margin-bottom: 50px; }
   .content h1 {
     color: #333;
