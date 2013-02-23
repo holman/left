@@ -13,7 +13,7 @@ words.
 
 - Install Jekyll: `gem install jekyll`
 - Fork this repository
-- Clone it: `git clone https://github.com/YOUR-USER/left`
+- Clone it: `git clone git@github.com:YOUR-USER/left.git`
 - Run the jekyll server: `jekyll --server`
 
 You should have a server up and running locally at <http://localhost:4000>.
