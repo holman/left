@@ -12,7 +12,7 @@ words.
 ## Installation
 
 - Install Jekyll: `gem install jekyll`
-- Fork this repository
+- [Fork this repository](https://github.com/holman/left/fork)
 - Clone it: `git clone https://github.com/YOUR-USER/left`
 - Run the jekyll server: `jekyll --server`
 
