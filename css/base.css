@@ -40,6 +40,8 @@ a {
     color: black; }
     .sidebar .meta a:hover {
       color: #227ce8; }
+  .sidebar .meta .icon {
+    margin-right: 10px; }
   .sidebar .sections {
     margin: 15px 0 0 0; }
     .sidebar .sections a {
