@@ -44,7 +44,7 @@ easier.
 
 All you should have to do is rename your repository on GitHub to be
 `username.github.com`. Since everything is on the `gh-pages` branch, you
-should be able to see your new site at <http://username.github.com>.
+should be able to see your new site at <http://username.github.io>.
 
 ## Licensing
 
