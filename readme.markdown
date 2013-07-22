@@ -2,8 +2,8 @@ This is the personal site of Yoav Zimmerman. It is built off of the Left theme f
 
 ## Installation
 
--Make sure you have jekyll installed `sudo gem install jekyll`
--In the main directory: `jekyll serve`
+- Make sure you have jekyll installed `sudo gem install jekyll`
+- In the main directory: `jekyll serve`
 
 The site runs locally at <http://localhost:4000> by default
 
