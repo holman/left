@@ -4,32 +4,18 @@ layout: layout
 
 <section class="content">
   <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
+    <a href="{{ site.url }}">{{ page.title }}</a>
   </h1>
 
   <section class="byline">
     {{ page.date | date: "%B %e, %Y" }}
   </section>
 
+  <h1> {{post.title}} </h1>
+
   {{ content }}
 
   <!-- TODO: bio here -->
   <section class="meta">
-    <h3>Discussion, links, and tweets</h3>
-    <section class="copy">
-      <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
-        <img src="{{ site.gravatar_url }}?s=142" height="50" width="50" />
-      </a>
-
-      <p>
-        I'm a developer at GitHub. <a href="https://twitter.com/{{ site.twitter }}" target="_blank">Follow me on Twitter</a>;
-        you'll enjoy my tweets. I take care to carefully craft each one. Or at least aim to make
-        you giggle. Or offended. One of those two&mdash; I haven't decided which yet.
-      </p>
-
-      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
-      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
-      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-    </section>
   </section>
 </section>
