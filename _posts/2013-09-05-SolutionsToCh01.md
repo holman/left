@@ -4,7 +4,8 @@ title: Solutions to Chapter 1
 category: haskell
 ---
 
-Exercise 13. Define a type that contains tuples of up to four elements.
+## Exercise 13.
+Define a type that contains tuples of up to four elements.
 
 Solution:
 A separate constructor is needed to indicate the number of elements that
@@ -27,7 +28,8 @@ four.C.1. INTRODUCTION TO HASKELL
 
 
 
-Exercise 14. The quadratic equation a · x2 + b · x + c = 0 has two roots, given
+## Exercise 14.
+The quadratic equation a · x2 + b · x + c = 0 has two roots, given
 by the formula
 √
 −b ± b2 − 4 · a · c
@@ -52,6 +54,7 @@ and reports failure if they don’t exist.
 
 De acuerdo a Octavio
 
+<code>
 > quadratic_o :: Float -> Float -> Float -> (Float, Float)
 > quadratic_o a b c = if discriminante < 0 then error "Imaginario"
 >                   else (x1, x2)
@@ -69,6 +72,7 @@ De acuerdo a Octavio
 >                          then error "Imaginario"
 >                          else (((-b + sqrt discriminante) / (2 * a)),
 >                                ((-b - sqrt discriminante) / (2 * a)))
+</code>
 
 Exercise 15. Define a function
 showMaybe :: Show a => Maybe a -> String
