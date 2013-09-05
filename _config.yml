@@ -4,7 +4,7 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
-name: Alejandro García F. (El Viejo)
+name: El Viejo
 url: http://elviejo79.github.io
 description: Still Learning to develop software.
 github: elviejo79
