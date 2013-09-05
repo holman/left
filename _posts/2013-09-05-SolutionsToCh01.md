@@ -39,7 +39,8 @@ is non-negative. If the discriminant is negative the roots are complex.
 Define a function that finds the real solutions of the quadratic equation,
 and reports failure if they don’t exist.
 
-```javascript
+{% highlight haskell %}
+```haskell
 
 > quadratic a b c = let d = (b**2 - 4 * a * c)
 >                   in (quad a b c d)
@@ -49,6 +50,7 @@ and reports failure if they don’t exist.
 >             | d >= 0 = Right (((-b + sqrt d) / (2 * a)), ((-b - sqrt d) / (2 * a)))
 
 ```
+{% endhighlight %}
 
 De acuerdo a Octavio
 
