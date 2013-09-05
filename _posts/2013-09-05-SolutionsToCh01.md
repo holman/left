@@ -55,8 +55,11 @@ and reports failure if they don’t exist.
 
 {% endhighlight %}
 
+
 De acuerdo a Octavio
 
+
+{% highlight haskell %}
 
 > quadratic_o :: Float -> Float -> Float -> (Float, Float)
 > quadratic_o a b c = if discriminante < 0 then error "Imaginario"
@@ -67,6 +70,11 @@ De acuerdo a Octavio
 >                    discriminante = b **2 - 4 * a * c
 >                    part1 = -b / (2 * a)
 
+{% endhighlight %}
+
+
+{% highlight haskell %}
+
 > quadratic_mix :: Float -> Float -> Float -> (Float, Float)
 > quadratic_mix a b c = let
 >                        discriminante = b **2 - 4 * a * c
@@ -76,8 +84,13 @@ De acuerdo a Octavio
 >                          else (((-b + sqrt discriminante) / (2 * a)),
 >                                ((-b - sqrt discriminante) / (2 * a)))
 
+{% endhighlight %}
 
-Exercise 15. Define a function
+
+Exercise 15.
+============
+
+Define a function
 showMaybe :: Show a => Maybe a -> String
 that takes a Maybe value and prints it.
 
