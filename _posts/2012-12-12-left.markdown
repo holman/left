@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Left
-category: posts
+category: haskell
 ---
 
 Left is a clean, whitespace-happy layout for [Jekyll][jekyll].
