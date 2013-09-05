@@ -40,7 +40,6 @@ Define a function that finds the real solutions of the quadratic equation,
 and reports failure if they don’t exist.
 
 {% highlight haskell %}
-```haskell
 
 > quadratic a b c = let d = (b**2 - 4 * a * c)
 >                   in (quad a b c d)
@@ -49,7 +48,6 @@ and reports failure if they don’t exist.
 > quad a b c d | d < 0 = Left "It does not have a real solution"
 >             | d >= 0 = Right (((-b + sqrt d) / (2 * a)), ((-b - sqrt d) / (2 * a)))
 
-```
 {% endhighlight %}
 
 De acuerdo a Octavio
