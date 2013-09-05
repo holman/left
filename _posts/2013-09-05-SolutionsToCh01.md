@@ -4,7 +4,9 @@ title: Solutions to Chapter 1
 category: haskell
 ---
 
- ## Exercise 13.
+Exercise 13.
+============
+
 Define a type that contains tuples of up to four elements.
 
 Solution:
@@ -28,7 +30,8 @@ four.C.1. INTRODUCTION TO HASKELL
 
 
 
- ## Exercise 14.
+Exercise 14.
+============
 The quadratic equation a · x2 + b · x + c = 0 has two roots, given
 by the formula
 √
