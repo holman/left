@@ -3,20 +3,19 @@ layout: post
 title: Solutions to Chapter 3
 category: haskell
 ---
-{-# OPTIONS_GHC -F -pgmF htfpp #-}
 
 
 Exercise 1.
 ===========
-Write a recursive function copy :: [a] -> [a] that copies its list argument. For example, copy [2] ⇒[2].
-
-import Test.HUnit
-
+Write a recursive function copy :: [a] -> [a] that copies its list argument.
+For example, copy [2] ⇒[2].
 
 > import Test.HUnit
-> t1 =  ["f21 [2]" ~: [2] ~=? (f21 [2])]
+> t1 =  ["f21 [2,3] lista con algo" ~: [2,3] ~=? (f21 [2,3])
+>        ,"f21 [1] lista con un elementa" ~: [1] ~=? (f21 [1])]
 > f21 :: [a]->[a]
 > f21 [] = []
+> f21 (x:xs) = x:f21(xs)
 
 
 Exercise 2.
@@ -40,6 +39,9 @@ which takes two sorted lists and returns a sorted list containing the elements o
 > t3 =  ["merge [2,4.6] [1,3,5]" ~: [1,2,3,4,5,6] ~=? (merge [2,4,6] [1,3,5])]
 > merge :: Ord a => [a] -> [a] -> [a]
 > merge [] [] = []
+> merge as [] = as
+> merge [] bs = bs
+> merge (a:as) (b:bs) = if a < b then a:merge as (b:bs) else b:merge (a:as) bs
 
 Exercise 4.
 ==========
@@ -66,9 +68,10 @@ lookup 5 [(1,2),(5,3)] ==> Just 3
 lookup 6 [(1,2),(5,3)] ==> Nothing
 
 > t5 = ["clookup 5 [(1,2),(5,3)]" ~: Just 3 ~=? (clookup 5 [(1,2),(5,3)])
->      , "clookup 6 [(1,2),(5,3)]" ~: Nothing ~=? (clookup 5 [(1,2),(5,3)])]
-> clookup :: Int -> [(a,b)]-> Maybe b
-> clookup 0 [] = Nothing
+>      , "clookup 6 [(1,2),(5,3)]" ~: Nothing ~=? (clookup 6 [(1,2),(5,3)])]
+> clookup :: Int -> [(Int,Int)]-> Maybe Int
+> clookup e [] = Nothing
+> clookup e ((a,b):as) = if a == e then Just b else clookup e as
 
 Exercise 6.
 ===========
@@ -84,8 +87,9 @@ Write a function that takes a value e and a list of values xs and
 removes all occurrences of e from xs.
 
 > t7 = ["f7 2 [1,2,3,2,2,2]" ~: [1,3] ~=? (f7 2 [1,3])]
-> f7 :: a->[a]->[a]
+> f7 :: Eq a => a->[a]->[a]
 > f7 e [] = []
+> f7 e (x:xs) = if x == e then f7 e xs else x:(f7 e xs)
 
 Exercise 8.
 ===========
@@ -107,6 +111,8 @@ extract [Just 3, Nothing, Just 7] = [3, 7].
 > t9 = ["extract [Just 3, Nothing, Just 7]" ~: [3,7] ~=? (extract [Just 3, Nothing, Just 7])]
 > extract :: [Maybe a] -> [a]
 > extract [] = []
+> extract (Nothing:xs) = extract xs
+> extract (Just x:xs) = x:extract xs
 
 Exercise 10.
 ============
@@ -131,6 +137,8 @@ that it takes a function of three arguments and two lists.
 > t11 = ["(foldrWith (\\p q acc -> p+q + acc ) 0 [1, 1] [2, 2])" ~: 6 ~=? (foldrWith (\p q acc -> p+q + acc ) 0 [1, 1] [2, 2])]
 > foldrWith :: (a -> b -> c -> c) -> c -> [a] -> [b] -> c
 > foldrWith f z [] bs = z
+> foldrWith f z as [] = z
+> foldrWith f z (a:as) (b:bs)= f a b (foldrWith f z as bs)
 
 Exercise 12.
 ===========
@@ -145,9 +153,10 @@ Exercise 13.
 Write removeDuplicates, a function that takes a list and re-
 moves all of its duplicate elements.
 
-> t13 = ["removeDuplicates [1,9,9,2,7,7,7,3]"~: [1,2,3] ~=? (removeDuplicates [1,9,9,2,7,7,7,3])]
+> t13 = ["removeDuplicates [1,9,9,2,7,7,7,3]"~: [1,9,2,7,3] ~=? (removeDuplicates [1,9,9,2,7,7,7,3])]
 > removeDuplicates :: Eq a => [a] -> [a]
 > removeDuplicates [] = []
+> removeDuplicates (x:xs) = if (elem x xs) then removeDuplicates xs else x:removeDuplicates xs
 
 Exercise 14.
 ============
@@ -223,5 +232,7 @@ part (the part to the right of the decimal point).
 Run all the tests
 -----------------
 
-> tests = test (t1 ++ t2 ++ t3 ++ t4 ++ t5 ++ t6 ++ t7 ++ t8 ++
->                t9++t10++t11++t12++t13++t14 ++ t15 ++ t16 ++ t17 ++ t20)
+> tests = test (t1++t3++t5++t7++t9++t11 ++t13)
+
+++ t2 ++ t3 ++ t4 ++ t5 ++ t6 ++ t7 ++ t8 ++
+                t9++t10++t11++t12++t13++t14 ++ t15 ++ t16 ++ t17 ++ t20)
