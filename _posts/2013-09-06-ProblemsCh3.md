@@ -176,7 +176,10 @@ intersection :: Eq a => [a] -> [a] -> [a].
 
 > t15 = ["(intersection \"abcde\" \"defgh\")"~: ['d','e'] ~=? (intersection "abcde" "defgh")]
 > intersection :: Eq a => [a] -> [a] -> [a]
-> intersection [] [] = []
+> intersection [] bs = []
+> intersection as [] = []
+> intersection (a:as) bs = if (elem a bs) then a:intersection as bs else intersection as bs
+
 
 Exercise 16.
 ============
@@ -193,9 +196,12 @@ Exercise 17.
 ============
 Write a recursive function that determines whether a list is sorted.
 
-> t17 = ["isSorted [1,3,2,4]" ~: False ~=? (isSorted [1,3,2,4]) ]
+> t17 = ["isSorted [1,3,2,4]" ~: False ~=? (isSorted [1,3,2,4])
+>       , "isSorted [1,2,3,4]" ~: True ~=? (isSorted [1,2,3,4]) ]
 > isSorted :: Ord a => [a] -> Bool
 > isSorted [] = True
+> isSorted (a:b:as) = if a < b then True && isSorted (b:as) else False
+> isSorted a = True
 
 Exercise 18.
 ============
@@ -209,10 +215,14 @@ Exercise 19.
 Using recursion, define last, a function that takes a list and
 returns a Maybe type that is Nothing if the list is empty.
 
- t19 = ["flast [] " ~: Nothing ~=? (flast [])]
-
+> isNothing :: Maybe a -> Bool
+> isNothing Nothing = True
+> isNothing (Just a) = False
+> t19 = ["flast [1,2,3] regresa " ~: Just 3 ~=? (flast [1.0,2,3]) ]
 > flast :: Eq a => [a]-> Maybe a
-> flast xs = Nothing
+> flast [] = Nothing
+> flast (x:xs) = if xs == [] then Just x else flast xs
+
 
 Exercise 20.
 ============
@@ -232,7 +242,7 @@ part (the part to the right of the decimal point).
 Run all the tests
 -----------------
 
-> tests = test (t1++t3++t5++t7++t9++t11 ++t13)
+> tests = test (t1++t3++t5++t7++t9++t11 ++t13 ++ t15 ++ t17 ++ t19)
 
 ++ t2 ++ t3 ++ t4 ++ t5 ++ t6 ++ t7 ++ t8 ++
                 t9++t10++t11++t12++t13++t14 ++ t15 ++ t16 ++ t17 ++ t20)
