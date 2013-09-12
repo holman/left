@@ -4,6 +4,8 @@ title: Solutions to Chapter 1
 category: haskell
 ---
 
+#Updatea?
+
 Exercise 13.
 ============
 
