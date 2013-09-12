@@ -94,11 +94,13 @@ Define a function
 showMaybe :: Show a => Maybe a -> String
 that takes a Maybe value and prints it.
 
-> showMaybe :: Show a => Maybe a -> String
+> showMaybe :: (Show a) => Maybe a -> String
 > showMaybe Nothing = []
 > showMaybe (Just a) = show a
 
-Exercise 16. A Bit is an integer that is either 0 or 1. A Word is a list of bits
+Exercise 16.
+============
+A Bit is an integer that is either 0 or 1. A Word is a list of bits
 that represents a binary number. Here are some binary values that can
 be represented by Words:
 [1,0] => 2
