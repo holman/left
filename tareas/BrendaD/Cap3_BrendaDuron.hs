@@ -72,9 +72,15 @@ ex9 ((Just x):xs) = [x] ++ ex9 xs
 
 t10 = ["f10 \"abcde\" \"bc\"" ~: Just 1 ~=? (ex10 "abcde" "bc"), "f10 \"abcde\" \"fg\"" ~: Nothing ~=? (ex10 "abcde" "fg")]
 ex10 :: String -> String -> Maybe Int
-ex10 [] [] = Nothing
-ex10 (x:xs) (y:ys) = Just 5
---Pediente
+ex10 x y = loop x y 0
+
+loop :: String -> String -> Int -> Maybe Int
+loop [] s2 n = Nothing
+loop (x:xs) s2 n = if length s2 > length (x:xs)
+					then Nothing
+					else if take (length s2) (x:xs) == s2
+						then Just n
+						else loop xs s2 (n+1)
 
 
 t11 = ["(foldrWith (\\p q acc -> p+q + acc ) 0 [1, 1] [2, 2])" ~: 6 ~=? (ex11 (\p q acc -> p+q + acc ) 0 [1, 1] [2, 2])]
@@ -154,4 +160,4 @@ ex20_F (x:xs) = if x /= '.'
 				then ex20_F xs
 				else ex20_I xs 
 
-tests = test (t1++t2++t3++t4++t5++t6++t7++t8++t9++t11++t12++t13++t14++t15++t16++t17++t19++t20)
+tests = test (t1++t2++t3++t4++t5++t6++t7++t8++t9++t10++t11++t12++t13++t14++t15++t16++t17++t19++t20)
