@@ -331,7 +331,7 @@ Run all the tests
 
 In order to execute this tests in your local computer:
 
-{% highlight haskell %}
+{% highlight bash %}
 $ ghci -x lhs ./2013-09-06-ProblmsCh3.md
 $ Main> runTestsTT tests
 {% endhighlight %}
