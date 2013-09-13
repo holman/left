@@ -82,10 +82,16 @@ ex9Extract [] = []
 ex9Extract (Nothing:xs) = ex9Extract xs
 ex9Extract (Just x:xs) = x:ex9Extract xs
 
---t10 = ["ex10StringIndex \"abcde\" \"bc\"" ~: Just 1 ~=? (ex10StringIndex "abcde" "bc")
---	 , "ex10StringIndex \"abcde\" \"fg\"" ~: Nothing ~=? (ex10StringIndex "abcde" "fg")]
+t10 = ["ex10StringIndex \"abcde\" \"bc\"" ~: Just 1 ~=? (ex10StringIndex "abcde" "bc")
+	 , "ex10StringIndex \"abcde\" \"fg\"" ~: Nothing ~=? (ex10StringIndex "abcde" "fg")]
 
+ex10StringIndex :: String -> String -> Maybe Int
+ex10StringIndex xs [] = Nothing
+ex10StringIndex (xs) (ys) = countString xs ys 0
 
+countString :: String -> String -> Int -> Maybe Int
+countString [] lst count = Nothing
+countString (x:xs) lst count = if ((take (length lst) (x:xs)) == lst ) then Just count else countString xs lst (count+1)
 
 t11 = ["(ex11Foldrwith (\\p q acc -> p+q + acc ) 0 [1, 1] [2, 2])" ~: 6 ~=? (ex11Foldrwith (\p q acc -> p+q + acc ) 0 [1, 1] [2, 2])]
 
@@ -93,7 +99,11 @@ ex11Foldrwith :: (a -> b -> c -> c) -> c -> [a] -> [b] -> c
 ex11Foldrwith f z [] [] = z
 ex11Foldrwith f z (a:as) (b:bs) = f a b (ex11Foldrwith f z as bs) 
 
---t12 = [""]
+t12 = ["(mappend (++!) \"bla\")" ~: "b!l!a!" ~=? (mappend (++"!") ["b","l","a"])]
+
+mappend :: (a->[b])->[a]->[b]
+mappend f xs = foldr fun [] xs
+	where fun x acc = f x ++ acc
 
 t13 = ["ex13RemoveDuplcates [1,9,9,2,7,7,7,3]"~: [1,9,2,7,3] ~=? (ex13RemoveDuplcates [1,9,9,2,7,7,7,3])]
 
@@ -113,7 +123,7 @@ t15 = ["(ex15Interseccion \"abcde\" \"defgh\")"~: ['d','e'] ~=? (ex15Interseccio
 ex15Interseccion :: Eq a => [a] -> [a] -> [a]
 ex15Interseccion [] ys = []
 ex15Interseccion xs [] = []
-ex15Interseccion (x:xs) (y:ys) = if x == y then x:(ex15Interseccion xs ys) else (ex15Interseccion xs ys)
+ex15Interseccion (x:xs) (y:ys) = if x == y then x:(ex15Interseccion xs ys) else (ex15Interseccion xs (y:ys))
 
 t16 = ["isSubset [2,4] [1,2,3,4,5]" ~: True ~=? (isSubset [2,4] [1,2,3,4,5])
 	, "isSubset [6] [1,2,3,4,5]" ~: False ~=? (isSubset [6] [1,2,3,4,5])]
@@ -134,7 +144,7 @@ isNothing :: Maybe a -> Bool
 isNothing Nothing = True
 isNothing (Just a) = False
 
-t18 
+--t18 
 
 t19 = ["ex19Last [1,2,3] regresa " ~: Just 3 ~=? (ex19Last [1,2,3])]
 
@@ -142,7 +152,7 @@ ex19Last :: Eq a => [a] -> Maybe a
 ex19Last [] = Nothing
 ex19Last (x:xs) = if xs == [] then Just x else ex19Last xs
 
-tests = test (t1++t2++t3++t5++t7++t8++t8_1++t9++t11++t13++t14++t15++t16++t17++t19)
+tests = test (t1++t2++t3++t5++t7++t8++t8_1++t9++t10++t11++t12++t13++t14++t15++t16++t17++t19)
 
 --factors :: Int -> [Int]
 --factors n = [x | x <- [2..s], n `mod` x == 0]
