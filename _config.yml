@@ -1,6 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
+exclude: ["tareas"]
 rdiscount:
   extensions: [smart]
 
