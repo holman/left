@@ -329,7 +329,13 @@ part (the part to the right of the decimal point).
 Run all the tests
 -----------------
 
-> tests = test (t1++t3++t5++t7++t9++t11 ++t13 ++ t15 ++ t17 ++ t19)
+In order to execute this tests in your local computer:
 
-++ t2 ++ t3 ++ t4 ++ t5 ++ t6 ++ t7 ++ t8 ++
-                t9++t10++t11++t12++t13++t14 ++ t15 ++ t16 ++ t17 ++ t20)
+{% highlight haskell %}
+$ ghci -x lhs ./2013-09-06-ProblmsCh3.md
+$ Main> runTestsTT tests
+{% endhighlight %}
+
+{% highlight haskell %}
+> tests = test (t1++t3++t5++t7++t9++t11 ++t13 ++ t15 ++ t17 ++ t19)
+{% endhighlight %}
