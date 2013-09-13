@@ -4,7 +4,6 @@ title: Solutions to Chapter 3
 category: haskell
 ---
 
-
 Exercise 1.
 ===========
 Write a recursive function copy :: [a] -> [a] that copies its list argument.
@@ -22,7 +21,7 @@ Exercise 2.
 ==========
 
 Write a function inverse that takes a list of pairs and swaps the pair elements.
-For example,
+For example
 
 inverse [(1,2),(3,4)] ==> [(2,1),(4,3)]
 
