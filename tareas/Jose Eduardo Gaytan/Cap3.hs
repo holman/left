@@ -152,7 +152,7 @@ ex19Last :: Eq a => [a] -> Maybe a
 ex19Last [] = Nothing
 ex19Last (x:xs) = if xs == [] then Just x else ex19Last xs
 
-tests = test (t1++t2++t3++t5++t7++t8++t8_1++t9++t10++t11++t12++t13++t14++t15++t16++t17++t19)
+tests = test (t1++t2++t3++t5++t6++t7++t8++t8_1++t9++t10++t11++t12++t13++t14++t15++t16++t17++t19)
 
 --factors :: Int -> [Int]
 --factors n = [x | x <- [2..s], n `mod` x == 0]
