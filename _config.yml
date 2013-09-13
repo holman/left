@@ -1,12 +1,12 @@
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
+exclude: ["tareas"]
 rdiscount:
   extensions: [smart]
 
-name: Zach Holman
-url: http://zachholman.com
-description: A fantastic blog that is fantastic.
-twitter: holman
-github: holman
-gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
+name: El Viejo
+url: http://elviejo79.github.io
+description: Still Learning to develop software.
+github: elviejo79
+gravatar_url: http://www.gravatar.com/avatar/d6eaf9adc428a1358c963cff1c15b77c
