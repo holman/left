@@ -62,7 +62,7 @@ a {
       margin-bottom: 7px; }
 
 .content {
-  max-width: 650px;
+  max-width: auto;
   margin-left: 150px;
   margin-right: 20px;
   margin-bottom: 80px; }
@@ -117,6 +117,8 @@ a {
       border-radius: 3px;
       padding: 2px 3px; }
   .content img {
+    display: block;
+    margin: 0px auto;
     padding: 3px;
     border: 1px solid #eeeeee;
     max-width: 100%; }
@@ -186,7 +188,7 @@ a {
       margin-top: 0px; }
     .content .meta img {
       position: relative;
-      float: left;
+      float: center;
       margin-top: 0px;
       margin-right: 10px;
       margin-left: -60px;
