@@ -28,11 +28,13 @@ sites performance and is great for all the mac users as it can give you a screen
 
 To install add this to your Gemfile
 
-    gem 'heroku-deflater', :group => :production
+```ruby
+gem 'heroku-deflater', :group => :production
+```
 
-    Once implemented I found that our page size was almost halved and I'm sure this could be improved even further with some tweaking.
+Once implemented I found that our page size was almost halved and I'm sure this could be improved even further with some tweaking.
 
-    Let me know if you have used this gem or similar ones and what results you have found
+Let me know if you have used this gem or similar ones and what results you have found
 
 ### useful links
 - [github.com/romanbsd/heroku-deflater](https://github.com/romanbsd/heroku-deflater)
