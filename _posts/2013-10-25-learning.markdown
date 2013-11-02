@@ -5,7 +5,7 @@ category: posts
 ---
 Okay so here is the first post on this new site. I have been meaning to do some sort of writing for years but never felt I had anything of real value to add, and somehow the act of blogging seemed a bit self involved.
 
-#### so whats changed?
+### so whats changed?
 
 Well, I have been a programmer of varying competence for many years and although I was working open source platforms and languages I never participated in the community.
 
@@ -13,7 +13,7 @@ In an effort to re-invigourate my interest in my profession I left my old PHP jo
 
 Not too long after I was able to asked to join a small Rails development team at a startup here in sydney and this is where I am now. It's early days yet but its been a great experience so far and I feel I have learnt more in the last couple of month then the last couple of years.
 
-#### goals for the blog
+### goals for the blog
 
 I'm well aware that most of this might be usless information for the majoirity of people but I feel that inorder to have a chance of suceeding that I should set some goals for what I hope to accomplish, and what better way to remember these goals then to publish them.
 
