@@ -1,0 +1,25 @@
+---
+layout: post
+title: Re-Learning to Program
+category: posts
+---
+Okay so here is the first post on this new site. I have been meaning to do some sort of writing for years but never felt I had anything of real value to add, and somehow the act of blogging seemed a bit self involved.
+
+### so whats changed?
+
+Well, I have been a programmer of varying competence for many years and although I was working open source platforms and languages I never participated in the community.
+
+In an effort to re-invigourate my interest in my profession I left my old PHP job working on legacy software and dived into the world of ruby (and yes Rails). A few months before I finished up at my last position I had been burning the midnight oil playing around with some great online learning tools when it hit me that I was enjoying the learning I was doing at home so much more then work that I decided to see if I could make my work as enjoyable as my home work.
+
+Not too long after I was able to asked to join a small Rails development team at a startup here in sydney and this is where I am now. It's early days yet but its been a great experience so far and I feel I have learnt more in the last couple of month then the last couple of years.
+
+### goals for the blog
+
+I'm well aware that most of this might be usless information for the majoirity of people but I feel that inorder to have a chance of suceeding that I should set some goals for what I hope to accomplish, and what better way to remember these goals then to publish them.
+
+- Share and review the learning resources I have used.
+- Provide guides and mini tutorials for things I haven't found learning resources for.
+- and lastly to selfishly record this for my own personal reflection
+sharing is caring or something like that
+
+I have been truly amazed in the amount of support, dicussing and sense of community that ruby programmers seem to have. It has helped me get started and made we want to stay. So this is my way of trying to give back.
