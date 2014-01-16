@@ -11,7 +11,7 @@ a {
   position: fixed;
   left: 15px;
   top: 15px;
-  width: 80px;
+  width: 130px;
   font-family: Helvetica, sans-serif; }
   .sidebar a {
     text-decoration: none; }
@@ -28,7 +28,7 @@ a {
     .sidebar .name #fname {
       padding-left: 1px;
       font-size: 23px;
-      letter-spacing: 5px;
+      letter-spacing: 2px;
       color: black; }
     .sidebar .name #lname {
       font-size: 17px;
@@ -62,10 +62,10 @@ a {
       margin-bottom: 7px; }
 
 .content {
-  max-width: 650px;
-  margin-left: 110px;
+  max-width: auto;
+  margin-left: 150px;
   margin-right: 20px;
-  margin-bottom: 50px; }
+  margin-bottom: 80px; }
   .content h1 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
@@ -117,6 +117,8 @@ a {
       border-radius: 3px;
       padding: 2px 3px; }
   .content img {
+    display: block;
+    margin: 0px auto;
     padding: 3px;
     border: 1px solid #eeeeee;
     max-width: 100%; }
@@ -186,7 +188,7 @@ a {
       margin-top: 0px; }
     .content .meta img {
       position: relative;
-      float: left;
+      float: center;
       margin-top: 0px;
       margin-right: 10px;
       margin-left: -60px;
