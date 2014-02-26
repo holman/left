@@ -5,7 +5,7 @@ category: posts
 draft: true
 ---
 
-This is a draft post, that isn't ready for the wild. See how it doesn't show up in your list of  posts, nor in your rss feed? You can, however, [link](/posts/draft/) directly to it.
+This is a draft post that isn't ready for the wild. See how it doesn't show up in your list of posts, nor in your RSS feed? You can, however, [link](/posts/draft/) directly to it.
 
 To make it go live, all you have to do is remove the `draft:true` line, and you're off to the races.
 
