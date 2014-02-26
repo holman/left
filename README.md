@@ -14,7 +14,7 @@ words.
 - Install Jekyll: `gem install jekyll`
 - [Fork this repository](https://github.com/holman/left/fork)
 - Clone it: `git clone https://github.com/YOUR-USER/left`
-- Run the jekyll server: `jekyll serve`
+- Run the jekyll server: `jekyll serve -w`
 
 You should have a server up and running locally at <http://localhost:4000>.
 
