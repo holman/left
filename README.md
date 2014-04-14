@@ -7,6 +7,8 @@ extracted from [zachholman.com](http://zachholman.com/), which means it was
 battle-hardened from years of posting serious blog posts about emoji and swear
 words.
 
+You can see it live right here: <http://zachholman.com/left/>
+
 ![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
 
 ## Installation
