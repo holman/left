@@ -6,6 +6,9 @@ rdiscount:
 gems:
   - jekyll-sitemap
 
+exclude:
+  - vendor
+
 name: Zach Holman
 url: http://zachholman.com
 description: A fantastic blog that is fantastic.
