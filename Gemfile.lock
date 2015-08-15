@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.16.1)
+      timers (~> 4.0.0)
+    ffi (1.9.10)
+    hitimes (1.2.2)
+    jekyll-sitemap (0.8.1)
+    jekyll-watch (1.2.1)
+      listen (~> 2.7)
+    listen (2.10.1)
+      celluloid (~> 0.16.0)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rdiscount (2.1.8)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-sitemap
+  jekyll-watch
+  rdiscount
+
+BUNDLED WITH
+   1.10.6
