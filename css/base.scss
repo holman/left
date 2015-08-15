@@ -1,0 +1,239 @@
+---
+#
+---
+@charset "UTF-8";
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #227ce8;
+}
+
+.sidebar {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  width: 80px;
+  font-family: Helvetica, sans-serif;
+  a {
+    text-decoration: none;
+  }
+  img {
+    padding: 0 3px;
+    border: 0;
+  }
+  .avatar {
+    padding: 0;
+    margin-left: 2px;
+    border-radius: 5px;
+  }
+  .name {
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    #fname {
+      padding-left: 1px;
+      font-size: 23px;
+      letter-spacing: 5px;
+      color: black;
+    }
+    #lname {
+      font-size: 17px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: black;
+    }
+  }
+  .meta {
+    a {
+      margin-left: 0px;
+      color: black;
+      &:hover {
+        color: #227ce8;
+      }
+    }
+    margin-left: 4px;
+    .icon {
+      margin-right: 6px;
+    }
+  }
+  .sections {
+    margin: 15px 0 0 0;
+    a {
+      padding: 3px 0;
+      color: black;
+      font-weight: bold;
+      font-size: 12px;
+      display: block;
+      &:hover {
+        color: #227ce8;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style: none;
+      margin-bottom: 7px;
+    }
+  }
+}
+
+.content {
+  max-width: 650px;
+  margin-left: 110px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  h1, h2, h3, h4 {
+    color: #333;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-weight: 400;
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+  }
+  h1 {
+    font-size: 36px;
+    margin: 18px 0 5px 0;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  h3 {
+    color: #777;
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    line-height: 1.7em;
+    code {
+      font-size: 12px;
+      background-color: #eeeeee;
+      border: 1px solid #777777;
+      border-radius: 3px;
+      padding: 2px 3px;
+    }
+  }
+  img {
+    padding: 3px;
+    border: 1px solid #eeeeee;
+    max-width: 100%;
+  }
+  hr {
+    border: 0;
+    height: 6px;
+    background-image: url("/images/hr.png");
+    background-repeat: repeat-x;
+    margin: 2em 3em;
+  }
+  li {
+    margin-bottom: 10px;
+    line-height: 1.4em;
+  }
+  blockquote {
+    font-style: italic;
+    font-size: 14px;
+    padding: .25em 1em;
+    margin: 1em 1em 0 1em;
+    color: #444;
+    cite {
+      &:before {
+        content: '— ';
+      }
+      display: block;
+      margin-top: .5em;
+      text-align: right;
+      color: #111;
+      font-style: normal;
+    }
+  }
+  .byline {
+    margin-bottom: 17px;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    padding-left: 0px;
+    font-size: 17px;
+    color: #777;
+  }
+  .aside {
+    background-color: #eeeeee;
+    padding: 14px;
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.6em;
+  }
+  .listing {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      font-size: 13px;
+      list-style: none;
+      padding: 5px 3px;
+      margin: 0;
+      color: #777777;
+      border-bottom: 1px solid #eee;
+      span {
+        float: right;
+      }
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .meta {
+    margin: 30px 0;
+    padding: 10px 0;
+    font-family: Helvetica, sans-serif;
+    p {
+      line-height: 1.4;
+      font-size: 14px;
+      margin-top: 0px;
+    }
+    img {
+      position: relative;
+      float: left;
+      margin-top: 0px;
+      margin-right: 10px;
+      margin-left: -60px;
+      border-radius: 4px;
+    }
+    .copy {
+      padding-left: 60px;
+    }
+    iframe {
+      padding-left: 5px;
+    }
+  }
+  .talk-design .color {
+    div {
+      float: left;
+      margin-right: 10px;
+      padding: 5px 15px;
+      border: 1px solid #000;
+      font-family: Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .white {
+      color: #fff;
+    }
+  }
+}

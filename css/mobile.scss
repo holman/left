@@ -1,0 +1,44 @@
+---
+#
+---
+.sidebar {
+  position: inherit;
+  width: inherit;
+  margin: 0;
+  padding: 25px;
+  img {
+    display: none;
+  }
+  .name {
+    display: inline;
+    #fname, #lname {
+      font-size: 25px;
+    }
+  }
+  .meta {
+    display: none;
+  }
+  ul {
+    padding: 25px;
+  }
+  li {
+    display: inline;
+  }
+  .sections {
+    margin: 0;
+    a {
+      font-size: 16px;
+      margin: 0 20px 0 0;
+      padding: 5px 10px;
+    }
+  }
+}
+
+.content {
+  margin: 0;
+  padding: 5px 25px;
+  width: inherit;
+  h1 {
+    margin: 0 0 5px 0;
+  }
+}
