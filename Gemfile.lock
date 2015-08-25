@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    celluloid (0.16.1)
+    celluloid (0.17.1.2)
       timers (~> 4.0.0)
     ffi (1.9.10)
     hitimes (1.2.2)
@@ -26,6 +26,3 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-watch
   rdiscount
-
-BUNDLED WITH
-   1.10.6
