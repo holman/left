@@ -1,4 +1,3 @@
-markdown: rdiscount
 permalink: /posts/:title
 rdiscount:
   extensions: [smart]
