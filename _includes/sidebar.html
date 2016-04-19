@@ -23,15 +23,3 @@
     </ul>
   </section>
 </section>
-<ul class="dropdown-menu">
-    {% for category in site.categories %}
-        <li class="camelize_me">
-            <a href="/tags/{{category | first}}/">
-                {{category | first }}
-                <span class="badge">
-                <!-- Post count here -->
-                </span>
-            </a>
-        </li>
-    {% endfor %} 
-</ul>
