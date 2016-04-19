@@ -14,6 +14,8 @@ Je suis fondamentalement convaincu, comme la majorité d'entre vous, qu'il y a p
 
 Ça tombe bien, les meilleurs sauvegardes sont celles qui se font toutes seules et régulièrement, et nos iPhone / iPad savent très bien faire ça !
 
+![icloud](/images/icloud-logo.jpg "iCloud Logo")
+
 C'est là que je vous parle d'iCloud et qu'une bonne partie d'entre vous hausse les épaules ou ferment leurs yeux. 
 
 iCloud = une sauvegarde automatique de vos appareils, qui se lance toutes les nuits si votre appareil est en charge et qu'il y a un réseau wifi accessible. 
