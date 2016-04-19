@@ -5,7 +5,7 @@ rdiscount:
 gems:
   - jekyll-sitemap
 
-name: Zach Holman
-url: http://zachholman.com
+name: Team IT Blog
+url: http://blog.mylittleit.fr
 description: A fantastic blog that is fantastic.
-twitter: holman
+twitter: mlp
