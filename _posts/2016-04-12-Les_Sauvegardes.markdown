@@ -28,7 +28,7 @@ Quelques points importants :
 - Apple offre 5 Go de stockage avec chaque compte iCloud. C'est pas mal mais pas du tout suffisant dès qu'on a beaucoup de photos dans son iPhone. Les forfaits iCloud sont raisonnables par rapport au confort de ne plus avoir à s'inquiéter de ses sauvegardes (1€/mois pour 50Go). 
 - iCloud n'est pas la réponse magique au problème "j'ai plus de place dans mon iPhone", mais ça peut aider en configurant par exemple la bibliothèque photo iCloud.
 
-![icloud](/images/google-logo.jpg "iCloud Logo")
+![icloud](/images/google-logo.png "iCloud Logo")
 
 Je n'ai pas oublié les possesseurs de téléphones Android (pour les Nokia désolé c'est désespéré ;D) : 
 Normalement vous avez configuré un compte Gmail dans votre appareil et la majorité des données importantes sont synchronisées avec Google. Pour le reste, il existe pas mal d’applications qui font des sauvegardes complètes. 
@@ -36,10 +36,10 @@ Normalement vous avez configuré un compte Gmail dans votre appareil et la major
 
 J'aimerais qu'on tienne ensemble le pari que vous aurez tous mis en place vos sauvegardes (avec notre aide) avant de partir et prendre de belles photos en vacances cet été. 
 
-![icloud](/images/emporte-piece-logo-icloud.jpg "iCloud Logo")
+![patisserie](/images/emporte-piece-logo-icloud.jpg "iCloud Logo")
 
 
-![icloud](/images/appstore-logo.png "iCloud Logo")Bonus : pour partager ses achats entre conjoints par exemple, il y a possibilité d'utiliser le même compte Apple dans l'application AppStore. Mais une autre solution est de profiter du partage familial (on est pas forcés de se reproduire pour pouvoir l'utiliser) et attribuer des rôles comme dans une famille. L'intérêt c'est que chaque membre peut afficher les achats des autres membres et les télécharger sans les repayer. 
+![Appstore](/images/appstore-logo.png "Appstore Logo")Bonus : pour partager ses achats entre conjoints par exemple, il y a possibilité d'utiliser le même compte Apple dans l'application AppStore. Mais une autre solution est de profiter du partage familial (on est pas forcés de se reproduire pour pouvoir l'utiliser) et attribuer des rôles comme dans une famille. L'intérêt c'est que chaque membre peut afficher les achats des autres membres et les télécharger sans les repayer. 
   
 
 
