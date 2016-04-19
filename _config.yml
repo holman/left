@@ -1,4 +1,4 @@
-permalink: /posts/:date
+permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
