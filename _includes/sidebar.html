@@ -20,10 +20,11 @@
     <ul>
       <li><a href="/about.html">A propos</a></li>
       <li><a href="/">Tips</a></li>
+      {% for category in site.categories %}
+      {{ category | first }}
+      {% endfor %}
     </ul>
   </section>
 </section>
 
-{% for category in site.categories %}
-    {{ category | first }}
-{% endfor %}
+
