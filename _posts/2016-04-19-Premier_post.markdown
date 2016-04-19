@@ -2,7 +2,7 @@
 layout: post
 title: test
 category: posts
-permalink: pretty
+permalink: date
 ---
 
 Ceci est un post de test !
