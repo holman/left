@@ -28,7 +28,6 @@ Quelques points importants :
 - Apple offre 5 Go de stockage avec chaque compte iCloud. C'est pas mal mais pas du tout suffisant dès qu'on a beaucoup de photos dans son iPhone. Les forfaits iCloud sont raisonnables par rapport au confort de ne plus avoir à s'inquiéter de ses sauvegardes (1€/mois pour 50Go). 
 - iCloud n'est pas la réponse magique au problème "j'ai plus de place dans mon iPhone", mais ça peut aider en configurant par exemple la bibliothèque photo iCloud.
 
-![icloud](/images/google-logo.png "iCloud Logo")
 
 Je n'ai pas oublié les possesseurs de téléphones Android (pour les Nokia désolé c'est désespéré ;D) : 
 Normalement vous avez configuré un compte Gmail dans votre appareil et la majorité des données importantes sont synchronisées avec Google. Pour le reste, il existe pas mal d’applications qui font des sauvegardes complètes. 
