@@ -5,7 +5,7 @@ rdiscount:
 gems:
   - jekyll-sitemap
 
-name: Le Blog
+name: Tips Blog
 url: http://blog.mylittleit.fr
 description: Le blog de l'équipe IT My Little Paris
 twitter: My_Little_Paris
