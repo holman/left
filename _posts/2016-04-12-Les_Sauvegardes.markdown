@@ -2,6 +2,7 @@
 layout: post
 title: Les Sauvegardes
 category: posts
+permalink: date
 ---
 
 Bonjour !
