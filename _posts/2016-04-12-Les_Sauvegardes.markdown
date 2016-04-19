@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les Sauvegardes
-category: posts
+category: tips
 ---
 
 Bonjour !
