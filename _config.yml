@@ -5,7 +5,7 @@ rdiscount:
 gems:
   - jekyll-sitemap
 
-name: IT Blog
+name: Le Blog
 url: http://blog.mylittleit.fr
-description: A fantastic blog that is fantastic.
+description: Le blog de l'équipe IT My Little Paris
 twitter: My_Little_Paris
