@@ -39,15 +39,14 @@ J'aimerais qu'on tienne ensemble le pari que vous aurez tous mis en place vos sa
 ![patisserie](/images/emporte-piece-logo-icloud.jpg "iCloud Logo")
 
 
-![Appstore](/images/appstore-logo.png "Appstore Logo")Bonus : pour partager ses achats entre conjoints par exemple, il y a possibilité d'utiliser le même compte Apple dans l'application AppStore. Mais une autre solution est de profiter du partage familial (on est pas forcés de se reproduire pour pouvoir l'utiliser) et attribuer des rôles comme dans une famille. L'intérêt c'est que chaque membre peut afficher les achats des autres membres et les télécharger sans les repayer. 
+Bonus : pour partager ses achats entre conjoints par exemple, il y a possibilité d'utiliser le même compte Apple dans l'application AppStore. Mais une autre solution est de profiter du partage familial (on est pas forcés de se reproduire pour pouvoir l'utiliser) et attribuer des rôles comme dans une famille. L'intérêt c'est que chaque membre peut afficher les achats des autres membres et les télécharger sans les repayer. 
   
 
 
 
 MAJ
-
 Vous êtes très motivés pour faire vos sauvegardes, ça fait très plaisir ! 
 J’ai eu pas mal de demandes et pour commencer, vous pouvez configurer iCloud en allant dans le menu réglages, puis iCloud, entrer un compte Apple ou en créer un à partir de votre adresse email.
 Ensuite il faut s’assurer que tous les éléments à synchroniser sont cochés (mail et notes peuvent se synchroniser uniquement avec une adresse iCloud, si vous utilisez une adresse gmail, c’est déjà synchronisé !) et que la sauvegarde est bien activée !
-
+![iCloud Backup](/images/icloud-backup.jpg "iCloud Backup")
 
