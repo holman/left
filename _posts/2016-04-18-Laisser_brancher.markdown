@@ -24,8 +24,8 @@ C'était vrai avec les PC il y a quelques années, les Macs (et les PC récents)
  ![magsafe](/images/magsafe.gif "magsafe")
 
 La petite lumière sur la prise du chargeur indique 2 choses :
-- **Orange**, la batterie est en court de rechargement.
-- **Vert**, la batterie est rechargée, le chargeur arrête de la charger et n'alimente que le Mac.
+  - **Orange**, la batterie est en court de rechargement.
+  - **Vert**, la batterie est rechargée, le chargeur arrête de la charger et n'alimente que le Mac.
 
 La différence est là, par rapport aux anciens systèmes de charges qui ne laissaient pas la batterie tranquille. 
 
