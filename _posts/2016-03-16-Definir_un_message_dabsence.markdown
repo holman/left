@@ -12,6 +12,6 @@ Ensuite ça se passe dans les Paramètres, accessibles par le menu "engrenage" :
 <img src="/images/gmail-settings.png" width="50%">
 
 Sur le premier onglet, faire défiler la page jusqu'à atteindre "Réponse Automatique" :
-![](/images/absence.png "")
+![absence](/images/absence.png "absence")
 
 A bientôt !
