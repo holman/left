@@ -1,3 +1,9 @@
+---
+layout: post
+title: Est-ce que je dois laisser mon Mac branché ?
+category: posts
+---
+
 Bonjour !
 
 Cette semaine je répond à cette question que beaucoup d’entre-vous se posent :
