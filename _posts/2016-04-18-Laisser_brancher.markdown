@@ -7,24 +7,23 @@ category: posts
 Bonjour !
 
 Cette semaine je répond à cette question que beaucoup d’entre-vous se posent :
-"Est-ce que je dois laisser mon Mac branché ou le débrancher tous les jours, ou surveiller si la batterie est pleine avant de le débrancher et faire trois tours sur moi-même avant de le rebrancher ?"
+*"Est-ce que je dois laisser mon Mac branché ou le débrancher tous les jours, ou surveiller si la batterie est pleine avant de le débrancher et faire trois tours sur moi-même avant de le rebrancher ?"*
 
 Un sujet complexe ...
 
 Mais la réponse est simple : 
-Laissez votre Mac branché, autant que vous pouvez, mais pas plus d'un mois d'affilé.  
+**Laissez votre Mac branché, autant que vous pouvez, mais pas plus d'un mois d'affilé.**
 
 L'explication maintenant car je sens que certains sont perplexes. 
-"Oui mais on m'a dit que si on laisse son PC branché ça abîme la batterie."
+*"Oui mais on m'a dit que si on laisse son PC branché ça abîme la batterie."*
 
 C'était vrai avec les PC il y a quelques années, les Macs (et les PC récents) sont un peu plus intelligents en ce qui concerne la charge.
 
-
-bloggif_5714b4b35a152.gif
+![](/images/magsafe.gif "")
 
 La petite lumière sur la prise du chargeur indique 2 choses :
-- Orange, la batterie est en court de rechargement.
-- Vert, la batterie est rechargée, le chargeur arrête de la charger et n'alimente que le Mac.
+- **Orange**, la batterie est en court de rechargement.
+- **Vert**, la batterie est rechargée, le chargeur arrête de la charger et n'alimente que le Mac.
 
 La différence est là, par rapport aux anciens systèmes de charges qui ne laissaient pas la batterie tranquille. 
 
@@ -40,18 +39,18 @@ Il est donc conseillé de laisser votre Mac branché autant que possible, et si 
 
 Pour ceux qui veulent en savoir plus (would you like to know more ?) : www.apple.com/batteries
 
+![](/images/charge.gif "")
 
-giphy-2.gif
 
-
-BONUS !
+**BONUS !**
 Est-ce que c’est pareil pour les iPhones ?
 Pour faire simple, on a pas trop le choix que de brancher son iPhone le soir avant de dormir afin qu’il soit à 100% le matin. 
 Si on le branche tous les soirs alors qu’il reste un peu de batterie, l’iPhone ne connaitra pas tout à fait le potentiel de sa batterie. 
-Ce qui est recommandé, c’est de le brancher tous les soirs, qu’il soit vide ou non, mais 2 à 3 fois par mois de le laisser totalement se décharger avant de le rebrancher. (en général ça arrive suffisamment régulièrement pour qu’on ai pas besoin de s’en préoccuper … 😁)
+Ce qui est recommandé, c’est de le brancher tous les soirs, **qu’il soit vide ou non**, mais 2 à 3 fois par mois de le laisser totalement se décharger avant de le rebrancher. (en général ça arrive suffisamment régulièrement pour qu’on ai pas besoin de s’en préoccuper … 😁)
 
 
-Pour la recharge des chats, j’attends vos avis, je suis pas sur ...
+*Pour la recharge des chats, j’attends vos avis, je suis pas sur ...**
 
+![](/images/chargingcat.gif "")
 
 giphy.gif
