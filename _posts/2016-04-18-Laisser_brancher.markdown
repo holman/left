@@ -19,7 +19,7 @@ L'explication maintenant car je sens que certains sont perplexes.
 
 C'était vrai avec les PC il y a quelques années, les Macs (et les PC récents) sont un peu plus intelligents en ce qui concerne la charge.
 
- ![](/images/magsafe.gif "")
+ ![magsafe](/images/magsafe.gif "magsafe")
 
 La petite lumière sur la prise du chargeur indique 2 choses :
 - **Orange**, la batterie est en court de rechargement.
@@ -39,7 +39,7 @@ Il est donc conseillé de laisser votre Mac branché autant que possible, et si 
 
 Pour ceux qui veulent en savoir plus (would you like to know more ?) : www.apple.com/batteries
 
- ![](/images/charge.gif "")
+ ![charging](/images/charge.gif "charging")
 
 
 **BONUS !**
@@ -51,4 +51,4 @@ Ce qui est recommandé, c’est de le brancher tous les soirs, **qu’il soit vi
 
 *Pour la recharge des chats, j’attends vos avis, je suis pas sur ...*
 
- ![](/images/chargingcat.gif "")
+ ![charging cat](/images/chargingcat.gif "charging cat")
