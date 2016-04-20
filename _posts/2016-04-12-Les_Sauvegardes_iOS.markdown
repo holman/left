@@ -25,11 +25,8 @@ ne fois iCloud configuré (on vous aidera volontiers !) vous l'oubliez et il fai
 Quelques points importants :
 
   - Un compte iCloud est personnel (vous pouvez utiliser votre adresse perso ou pro comme vous préférez) mais ne configurez pas votre compte sur l'appareil d'une autre personne sous peine de mélanges et pertes de données. (Pour partager vos achats je vais mettre un bonus en fin de ce mail pour ceux qui auront le courage d'aller au bout ;) ). 
-  
   - Si vous possédez un Mac et/ou un iPad et/ou un iPhone, vous entrez le même compte sur tous vos appareils et vous avez les mêmes données à jour sur chacun (valable pour les mails, contacts, calendriers, notes, rappels, favoris, et certaines applications compatibles). 
-  
   - Apple offre 5 Go de stockage avec chaque compte iCloud. C'est pas mal mais pas du tout suffisant dès qu'on a beaucoup de photos dans son iPhone. Les forfaits iCloud sont raisonnables par rapport au confort de ne plus avoir à s'inquiéter de ses sauvegardes (1€/mois pour 50Go). 
-  
   - iCloud n'est pas la réponse magique au problème "j'ai plus de place dans mon iPhone", mais ça peut aider en configurant par exemple la bibliothèque photo iCloud.
 
 
