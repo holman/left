@@ -12,9 +12,11 @@ Cette semaine je répond à cette question que beaucoup d’entre-vous se posent
 Un sujet complexe ...
 
 Mais la réponse est simple : 
+
 **Laissez votre Mac branché, autant que vous pouvez, mais pas plus d'un mois d'affilé.**
 
-L'explication maintenant car je sens que certains sont perplexes. 
+L'explication maintenant car je sens que certains sont perplexes.
+
 *"Oui mais on m'a dit que si on laisse son PC branché ça abîme la batterie."*
 
 C'était vrai avec les PC il y a quelques années, les Macs (et les PC récents) sont un peu plus intelligents en ce qui concerne la charge.
