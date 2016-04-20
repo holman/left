@@ -1,4 +1,4 @@
-permalink: date
+permalink: pretty
 rdiscount:
 extensions: [smart]
 
