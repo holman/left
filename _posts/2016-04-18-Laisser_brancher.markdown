@@ -52,5 +52,3 @@ Ce qui est recommandé, c’est de le brancher tous les soirs, **qu’il soit vi
 *Pour la recharge des chats, j’attends vos avis, je suis pas sur ...*
 
  ![](/images/chargingcat.gif "")
-
-giphy.gif
