@@ -6,20 +6,30 @@ category: posts
 
 Bonjour !
 
+
 Cette semaine je répond à cette question que beaucoup d’entre-vous se posent :
+
   *"Est-ce que je dois laisser mon Mac branché ou le débrancher tous les jours, ou surveiller si la batterie est pleine avant de le débrancher et faire trois tours sur moi-même avant de le rebrancher ?"*
+
 
 Un sujet complexe ...
 
+
 Mais la réponse est simple : 
+
   **Laissez votre Mac branché, autant que vous pouvez, mais pas plus d'un mois d'affilé.**
 
+
 L'explication maintenant car je sens que certains sont perplexes.
+
   *"Oui mais on m'a dit que si on laisse son PC branché ça abîme la batterie."*
+
 
 C'était vrai avec les PC il y a quelques années, les Macs (et les PC récents) sont un peu plus intelligents en ce qui concerne la charge.
 
+
  ![magsafe](/images/magsafe.gif "magsafe")
+
 
 La petite lumière sur la prise du chargeur indique 2 choses :
 * **Orange**, la batterie est en court de rechargement.
@@ -51,5 +61,6 @@ Ce qui est recommandé, c’est de le brancher tous les soirs, **qu’il soit vi
 
 
 *Pour la recharge des chats, j’attends vos avis, je suis pas sur ...*
+
 
  ![charging cat](/images/chargingcat.gif "charging cat")
