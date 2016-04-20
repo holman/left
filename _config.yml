@@ -1,11 +1,11 @@
-permalink: /posts/:title
+permalink: date
 rdiscount:
-  extensions: [smart]
+extensions: [smart]
 
 gems:
   - jekyll-sitemap
 
-name: Tips Blog
+name: MylittleIT Blog
 url: http://blog.mylittleit.fr
 description: Le blog de l'équipe IT My Little Paris
 twitter: My_Little_Paris
