@@ -33,8 +33,8 @@ La batterie de votre Mac (si votre Mac a moins de 4 ans) peut supporter entre 90
 Un cycle de charge c'est : une décharge complète + une charge complète (mais ça peut se faire en plusieurs fois). 
 
 Maintenant attention :
-  *Si vous déchargez et rechargez votre Mac complètement 2 fois par jours, après un an vous aurez déjà atteint 730 cycles !
-  *Si votre Mac passe une bonne partie de la journée sur votre bureau et que par exemple vous le déchargez et rechargez complètement deux fois par semaine, vous serez plutôt autour de 100 cycles par an ! Notre utilisation quotidienne se trouve en général au juste milieu.
+* Si vous déchargez et rechargez votre Mac complètement 2 fois par jours, après un an vous aurez déjà atteint 730 cycles !
+* Si votre Mac passe une bonne partie de la journée sur votre bureau et que par exemple vous le déchargez et rechargez complètement deux fois par semaine, vous serez plutôt autour de 100 cycles par an ! Notre utilisation quotidienne se trouve en général au juste milieu.
 
 Les Macs sont fait pour que vous n’ayez pas à vous préoccuper de toutes ces considérations. 
 Il est donc conseillé de laisser votre Mac branché autant que possible, et si vous partez 3 semaines en vacances, n’oubliez pas à votre retour de faire quelques cycles de charges et décharges (c’est comme quand on s’arrête de faire des footings le weekend pendant 1 mois : La reprise est dure !).
