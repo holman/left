@@ -45,6 +45,7 @@ Pour ceux qui veulent en savoir plus (would you like to know more ?) : www.apple
 
 
 **BONUS !**
+
 Est-ce que c’est pareil pour les iPhones ?
 Pour faire simple, on a pas trop le choix que de brancher son iPhone le soir avant de dormir afin qu’il soit à 100% le matin. 
 Si on le branche tous les soirs alors qu’il reste un peu de batterie, l’iPhone ne connaitra pas tout à fait le potentiel de sa batterie. 
