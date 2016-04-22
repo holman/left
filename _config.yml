@@ -9,3 +9,4 @@ name: Zach Holman
 url: http://zachholman.com
 description: A fantastic blog that is fantastic.
 twitter: holman
+google_analytics_tracking_id: # add tracking id here (optional)
