@@ -5,7 +5,7 @@ extensions: [smart]
 gems:
   - jekyll-sitemap
 
-name: MylittleIT Blog
+name: MyLittleIT Blog
 url: http://blog.mylittleit.fr
 description: Le blog de l'équipe IT My Little Paris
 twitter: My_Little_Paris
