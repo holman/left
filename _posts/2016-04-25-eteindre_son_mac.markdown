@@ -35,7 +35,7 @@ Je pense qu’aucun d’entre vous n’apprécierait beaucoup de travailler plus
 
 *Alors je fais quoi ? je redémarre tous les jours ?*
 
-**Apple recommande de redémarrer une à 2 fois par mois OU dès que le Mac semble être ralenti ou ne pas se comporter comme il le devrait.**
+**Non, pas tous les jours. Apple recommande de redémarrer une à 2 fois par mois OU dès que le Mac semble être ralenti ou ne pas se comporter comme il le devrait.**
 
 Maintenant vous savez pourquoi on vous demande souvent si vous avez redémarré votre Mac dernièrement, et non ce n’est pas juste pour vous embêter ! ;)
 
