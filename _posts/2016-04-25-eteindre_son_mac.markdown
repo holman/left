@@ -17,6 +17,7 @@ Je l’avais déjà évoqué, les Macs, dans leur philosophie sont faits pour qu
 ![sleepy](/images/sleepy.png "sleepy")
 
 Les avantages : 
+
  - Vous n’avez pas besoin de fermer tous vos onglets de navigateur.
  - Vous n’avez pas besoin de fermer tous vos documents ouverts.
  - Le Mac est en veille et consomme moins d’énergie que si il était allumé
