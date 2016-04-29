@@ -2,6 +2,7 @@ Bonjour !
 
 Aujourd’hui une petite astuce très utile pour faire de la place dans votre boite mail (gmail).
 
+
 En entrant les mots clés (en gras dans la liste) vous allez pouvoir :
 
 Afficher tous les mails supérieur à 10Mo (avec PJ) depuis le 01/01/2008 jusqu'au 01/04/2016 (vous pouvez changer la date à votre convenance) : **has:attachment larger:10M after:2008/1/1 before:2016/4/1**
@@ -25,7 +26,8 @@ Afficher tous les emails avec des PJ : **has:attachment**
 
 Ces règles vous permettrons de supprimer les mails qui prennent inutilement de la place dans votre boite mail.
 
-BONUS !
+**BONUS !**
+
 On peut automatiser la recherche de ces mails et les regrouper sous un libellé dans Gmail !
 
 Vous avez par exemple saisi votre recherche qui affiche tous les mails avec des pièces jointes de plus de 10Mo (Mais vous pouvez utiliser n’importe quelle recherche !) :
