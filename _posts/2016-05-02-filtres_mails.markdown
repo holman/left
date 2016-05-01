@@ -50,6 +50,6 @@ Vous pouvez appliquer automatiquement un libellé (existant ou nouveau) aux mail
 ![filter-options3](/images/filter-options3.png)
 
 
-Si vraiment vous n'y arrivez pas vous pouvez me demander de l'aide ou laisser le chien le faire :
+Si vous avez besoin d'aide, vous pouvez nous demander de l'aide ou laisser faire le chien :
 
 ![dog](/images/dog.gif)
