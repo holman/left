@@ -1,9 +1,15 @@
+---
+layout: post
+title: Est-ce que je peux filtrer les fichiers qui prennent de la place dans ma boite mail ?
+category: posts
+---
+
 Bonjour !
 
 Aujourd’hui une petite astuce très utile pour faire de la place dans votre boite mail (gmail).
 
 
-En entrant les mots clés (en gras dans la liste) vous allez pouvoir :
+En entrant les mots clés (en gras dans la liste) dans le champs de recherche, vous allez pouvoir :
 
 Afficher tous les mails supérieur à 10Mo (avec PJ) depuis le 01/01/2008 jusqu'au 01/04/2016 (vous pouvez changer la date à votre convenance) : **has:attachment larger:10M after:2008/1/1 before:2016/4/1**
 
@@ -50,6 +56,6 @@ Vous pouvez appliquer automatiquement un libellé (existant ou nouveau) aux mail
 ![filter-options3](/images/filter-options3.png)
 
 
-Si vous avez besoin d'aide, vous pouvez nous demander de l'aide ou laisser faire le chien :
+Si vous avez besoin, vous pouvez nous demander de l'aide ou laisser faire le chien :
 
 ![dog](/images/dog.gif)
