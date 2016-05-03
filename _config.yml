@@ -1,6 +1,5 @@
 permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
 
 gems:
   - jekyll-sitemap
