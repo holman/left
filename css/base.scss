@@ -87,6 +87,7 @@ a {
 }
 
 .content {
+      background: rgba(255,255,255,0.8);
   max-width: 700px;
   margin-left: 130px;
   margin-right: 20px;
@@ -119,7 +120,7 @@ a {
     margin-top: 0;
     margin-bottom: 1.2em;
     line-height: 1.7em;
-    background: rgba(255,255,255,0.8);
+
     code {
       font-size: 12px;
       background-color: #eeeeee;
