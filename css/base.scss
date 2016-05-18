@@ -4,9 +4,12 @@
 @charset "UTF-8";
 
 body {
+  background-image: url("http://welcome.mylittleparis.com/images/background-bureau.jpg");
+  background-size: cover;
   font-family: 'Roboto', "Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
+
 }
 
 a {
@@ -175,6 +178,7 @@ a {
     line-height: 1.6em;
   }
   .listing {
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 10px 0 0 0;
     padding: 0;
     font-family: Helvetica, sans-serif;
