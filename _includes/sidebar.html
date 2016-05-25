@@ -1,5 +1,5 @@
 <section class="sidebar">
-  <a href="/">
+  <a href="/" aria-label="Avatar">
     <img src="{{ site.github.owner_gravatar_url }}?s=150" height="75" width="75" class="avatar" />
   </a>
 
@@ -11,9 +11,9 @@
   </section>
 
   <section class="meta">
-    <a href="{{ site.github.owner_url }}" target="_blank"><i class="fa fa-github"></i></a>
-    <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="/atom.xml"><i class="fa fa-rss"></i></a>
+    <a href="{{ site.github.owner_url }}" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub"><i class="fa fa-github"></i></a>
+    <a href="https://twitter.com/{{ site.twitter }}" target="_blank" title="Follow me on Twitter" aria-label="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="/atom.xml" title="Atom RSS feed" aria-label="Atom RSS feed"><i class="fa fa-rss"></i></a>
   </section>
 
   <section class="sections">
