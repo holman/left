@@ -15,7 +15,6 @@ Il existe plusieurs états de blocage d’un Mac et avec quelques astuces, on va
 **Les ralentissements extrêmes / applications bloquées** 
 
 Le curseur de votre Mac se déplace mais très lentement ou de manière saccadée.
-
 "La roue colorée de la mort" s’affiche et/ou l’application semble bloquée ...
 
 ![spinner](/images/spinning-rolling.gif "spinner")
