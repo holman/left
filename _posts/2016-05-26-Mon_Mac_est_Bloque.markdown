@@ -49,6 +49,6 @@ J’espère que ces conseils vous serviront, et le moins souvent possible !
 
 Et pour finir, désolé si vous finissez avec la chanson en tête, mais je pouvais pas laisser passer ce “Frozen Mac” :
 
-![frozenmac](/images/frozenmac.gif "frozenmac")
+![frozenmac](/images/frozenMac.gif "frozenmac")
 
 
