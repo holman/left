@@ -6,21 +6,21 @@ category: posts
 Bonjour !
 
 
-Bien qu’ils soient plutôt fiables, il arrivent que des applications plantent sur nos Mac ou qu’ils se retrouvent complètement bloqués.
+Bien qu’ils soient plutôt fiables, il arrive que des applications plantent sur nos Mac ou qu’ils se retrouvent complètement bloqués.
 
-Il existe plusieurs états de bloquage d’un mac et avec quelques astuces, on va vous expliquer comment s’en sortir. 
+Il existe plusieurs états de blocage d’un Mac et avec quelques astuces, on va vous expliquer comment s’en sortir. 
 
 
 
-**Les ralentissements extremes / applications bloquées** 
+**Les ralentissements extrêmes / applications bloquées** 
 
-Le curseur de votre Mac se déplace mais très lentement ou de manière saccadé.
+Le curseur de votre Mac se déplace mais très lentement ou de manière saccadée.
 
-"La roue colorée de la mort" s’affiche et l’application semble bloquée ...
+"La roue colorée de la mort" s’affiche et/ou l’application semble bloquée ...
 
 ![spinner](/images/spinning-rolling.gif "spinner")
 
-Il faut parfois faire preuve de patience, pour être sur que le mac n’est tout simplement pas en train d’enregistrer et synchroniser des fichiers, si ça prends un temps anormal (plus de 3-5 minutes) Il y a une méthode pour forcer l’application à se fermer :
+Il faut parfois faire preuve de patience, pour être sur que le mac n’est tout simplement pas en train d’enregistrer et synchroniser des fichiers. Si ça prends un temps anormal (plus de 3-5 minutes), il y a une méthode pour forcer l’application à se fermer :
 
 ![forcequit](/images/forcequit.gif "forcequit")
 
@@ -29,8 +29,8 @@ Il faut parfois faire preuve de patience, pour être sur que le mac n’est tout
 
 
 **Blocages du Mac**
-il y a des informations qui peuvent nous servir à comprendre d’où vient le problème, mais la solution est souvent la même : il faut forcer le mac à s’éteindre.
-Si votre Mac est bloqué, essayez de voir si des informations continuent de se rafraichir à l’écran (l’heure qui défile, une animation sur une page, …), dans ce cas il s’agit peut-être d’un blocage du clavier et trackpad uniquement.
+il y a des informations qui peuvent nous servir à comprendre d’où vient le problème, mais la solution est souvent la même : il faut forcer le Mac à s’éteindre.
+Si votre Mac est bloqué, essayez de voir si des éléments continuent de se rafraichir à l’écran (l’heure qui défile, une animation sur une page, …), dans ce cas il s’agit peut-être d’un blocage du clavier et trackpad uniquement.
 
 Pour résoudre ce problème, commencez par appuyer sur le bouton d’alimentation du Mac pendant plus de 10 secondes, si le Mac ne s’éteint toujours pas, pressez les touches suivantes simultanément :
 Ctrl + Alt + Shift + Bouton d’alimentation. (attention, c’est la méthode la plus radicale qui revient à débrancher et rebrancher la batterie à l’intérieur du Mac)
@@ -40,7 +40,7 @@ Ctrl + Alt + Shift + Bouton d’alimentation. (attention, c’est la méthode la
 
 **Pas d'alimentation**
 Vous ouvrez votre Mac pour le sortir de veille où vous l'allumez alors qu'il était éteint. Vous avez bien vérifié que le chargeur était branché et sa lumière verte/orange allumée, mais l'écran reste noir. 
-Venez nous voir dès que possible.
+Venez nous voir au plus vite ..
 
 J’espère que ces conseils vous serviront, et le moins souvent possible !
 
