@@ -29,6 +29,7 @@ Il faut parfois faire preuve de patience, pour être sur que le mac n’est tout
 
 
 **Blocages du Mac**
+
 il y a des informations qui peuvent nous servir à comprendre d’où vient le problème, mais la solution est souvent la même : il faut forcer le Mac à s’éteindre.
 Si votre Mac est bloqué, essayez de voir si des éléments continuent de se rafraichir à l’écran (l’heure qui défile, une animation sur une page, …), dans ce cas il s’agit peut-être d’un blocage du clavier et trackpad uniquement.
 
