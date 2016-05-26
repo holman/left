@@ -39,6 +39,7 @@ Ctrl + Alt + Shift + Bouton d’alimentation. (attention, c’est la méthode la
 
 
 **Pas d'alimentation**
+
 Vous ouvrez votre Mac pour le sortir de veille où vous l'allumez alors qu'il était éteint. Vous avez bien vérifié que le chargeur était branché et sa lumière verte/orange allumée, mais l'écran reste noir. 
 Venez nous voir au plus vite ..
 
