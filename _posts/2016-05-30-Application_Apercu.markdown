@@ -1,3 +1,9 @@
+---
+layout: post
+title: A quoi sert l'application Apercu ?
+category: posts
+---
+
 Bonjour !
 
 Aperçu c'est une des applications les plus sous-estimées du Mac. 
