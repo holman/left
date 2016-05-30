@@ -26,7 +26,7 @@ Pas mal de fonctionnalités sont accessibles depuis les menus ou le bouton “ma
 
 ![markup](/images/markup.png)
 
-Comme ça a déjà très bien été fait, je vous invite à lire le “mini-guide” d’utilisation de ces fonctionnalités à cette adresse :
+Comme ça a déjà été fait et que c'est très clair, je vous invite à lire le “mini-guide” d’utilisation de ces fonctionnalités à cette adresse :
 
 [https://support.apple.com/fr-fr/HT201740](https://support.apple.com/fr-fr/HT201740)
 
