@@ -33,4 +33,4 @@ Comme ça a déjà très bien été fait, je vous invite à lire le “mini-guid
 
 En fait, Aperçu c’est un peu le “Sam” du Mac :
 
-![markup](/images/sam.jpg)
+![markup](/images/Sam.jpg)
