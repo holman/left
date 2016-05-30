@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A quoi sert l'application Apercu ?
+title: A quoi sert l'application Aperçu ?
 category: posts
 ---
 
