@@ -22,7 +22,7 @@ Immédiatement, il y a plusieurs choses que vous pouvez vérifier au niveau de l
 Si tout semble ok côté imprimante, vous pouvez regarder rapidement sur le mac :
 
 - Est-ce que le Mac est sur le bon réseau (pas d’impression sur le réseau invité) ?
-- Dans les préférences systèmes et est-ce qu’elle est fonctionnelle (bulle verte) ? Vous pouvez tenter d’ouvrir la file d’impression, supprimer tous les travaux et relancer l'impression. 
+- Dans les préférences systèmes, est-ce que l'imprimante est fonctionnelle (bulle verte) ? Vous pouvez tenter d’ouvrir la file d’impression, supprimer tous les travaux et relancer l'impression. 
 
 ![pp](/images/printer-preferences.png)
 
