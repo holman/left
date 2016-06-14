@@ -4,6 +4,7 @@ title: Ca imprime pas !
 category: posts
 ---
 
+
 Ca arrive toujours au mauvais moment, toujours quand on a besoin de sortir un document pour une réunion importante à laquelle on est déjà en retard : ça imprime pas !
 
 ![gp](/images/gutenberg-print.jpg)
