@@ -36,4 +36,5 @@ Si le problème persiste, contacter votre service technique préféré !
 
 
 Bonus : Si ça imprime pas, pas la peine de bidouiller les cables ;)
+
 [https://www.youtube.com/watch?v=JU4EXXdX4ZY](https://www.youtube.com/watch?v=JU4EXXdX4ZY)
