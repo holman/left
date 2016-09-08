@@ -2,6 +2,7 @@
 layout: post
 title: Left
 category: posts
+draft: true
 ---
 
 Left is a clean, whitespace-happy layout for [Jekyll][jekyll].
