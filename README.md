@@ -14,7 +14,7 @@ You can see it live right here: <http://zachholman.com/left/>
 ## Installation
 
 - [Fork this repository](https://github.com/holman/left/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/left`
+- Clone it: `git clone https://github.com/ninjacn/left`
 - Install ruby things: `bundle install` (if this doesn't work, look into [installing Bundler](http://bundler.io))
 - Start it up: `script/server`
 
