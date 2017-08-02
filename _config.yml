@@ -4,7 +4,7 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-name: Zach Holman
-url: https://zachholman.com/left
+name: Tom
+url: https://www.cnn.com
 description: A fantastic blog that is fantastic.
 twitter: holman
